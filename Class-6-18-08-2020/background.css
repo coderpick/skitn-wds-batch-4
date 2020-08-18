@@ -1,0 +1,33 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+/* 	background-image: url('img/bg.jpg');
+background-repeat: no-repeat;
+background-position:center;
+background-attachment: fixed;
+background-size: cover;  */
+background: url('img/bg.jpg') no-repeat fixed center center / cover;
+}
+
+
+.header{
+	padding: 20px;	
+	width: 1170px;
+	text-align: center;
+	margin: auto;
+}
+.header h1{
+	font-size: 72px;
+	/* font-family: 'Segoe Script'; */
+	font-family: 'Pangolin', cursive;
+	color: #ff4500;
+
+}
+p{
+	padding: 20px;	
+	width: 960px;
+	margin: auto;
+}

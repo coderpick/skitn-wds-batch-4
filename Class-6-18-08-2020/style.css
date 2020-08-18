@@ -1,0 +1,53 @@
+/* *{
+	margin: 0;
+	padding: 0;
+} */
+
+.container{
+	width: 960px;
+}
+
+.menu{}
+.menu ul{}
+.menu ul li{}
+.menu ul li a{
+
+}
+.para{
+	width: 300px;
+	border: 2px solid #ddd;
+	padding: 20px;
+	text-align: justify; /* left,center,right, justify*/
+}
+.link{
+	text-decoration: none;
+}
+
+.text-d{
+	text-decoration: line-through;/* none, underline,overline,line-through*/
+}
+	.uppercase {
+	  text-transform: uppercase;
+	}
+
+	.lowercase {
+	  text-transform: lowercase;
+	}
+
+	.capitalize {
+	  text-transform: capitalize;
+	}
+
+	.text-intend{
+		text-indent: 100px;
+		word-spacing: 20px;
+	}
+	.line-height{
+		line-height: 25px;
+		width: 250px;
+		letter-spacing: 10px;
+	}
+	.text-shadow{
+		text-shadow: 2px 2px 3px red;
+		color: green;
+	}
