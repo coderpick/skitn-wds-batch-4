@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #ddd;
+}
+
+a:link {}
+
+a:visited {}
+
+a:hover {}
+
+a:active {}
+
+.container {
+    width: 1170px;
+    background: #fff;
+    margin: auto;
+}
+
+.hero-area {
+    background: url(img/photo4.jpg) no-repeat center center / cover;
+}
+
+.hero-text {
+    padding: 140px 0;
+    text-align: center;
+}
+
+.hero-text h1 {
+    font-family: 'Benillia';
+    font-size: 45px;
+    color: #fff;
+    font-weight: 900;
+}
+
+.hero-text p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 100;
+    color: #fff
+}
+
+/* social link */
+
+.social-link a {
+    font-size: 30px;
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 20px;
+    background: #ff4500;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 80px;
+}

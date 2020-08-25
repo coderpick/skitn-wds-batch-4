@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Benillia';
+  src: url('Benillia.eot');
+  src: url('Benillia.eot?#iefix') format('embedded-opentype'),
+       url('Benillia.svg#Benillia') format('svg'),
+       url('Benillia.ttf') format('truetype'),
+       url('Benillia.woff') format('woff'),
+       url('Benillia.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
