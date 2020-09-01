@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>css relative & absoulte postion</title>
+	<style>
+		
+		.relative {
+		  height: 300px;
+		  width: 270px;		 
+		  position: relative;		
+		  overflow: hidden;
+		  float: left;
+		  margin-right: 20px;
+		}
+		.absolute {
+		  background: rgba(255, 0, 0, .5);
+		  color: #fff;		
+		  position: absolute;
+		  height: 100%;
+		  width: 100%;
+		  bottom: -100%; 		
+		  transition: .5s;
+		 
+		}
+		.relative:hover .absolute{
+ 			bottom: 0;	 
+		}
+		img{ width: 100%; }
+	</style>	
+</head>
+<body>
+	<h2>Our Team</h2>
+	<hr>
+	<div class="relative">
+		<img src="man.jpg" alt="">
+		<div class="absolute">
+			<h3>I am absoulte div</h3>
+		</div>
+	</div>
+
+	<div class="relative">
+		<img src="man.jpg" alt="">
+		<div class="absolute">
+			<h3>I am absoulte div</h3>
+		</div>
+	</div>
+	<div class="relative">
+		<img src="man.jpg" alt="">
+		<div class="absolute">
+			<h3>I am absoulte div</h3>
+		</div>
+	</div>
+	<div class="relative">
+		<img src="man.jpg" alt="">
+		<div class="absolute">
+			<h3>I am absoulte div</h3>
+		</div>
+	</div>
+
+	<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima dignissimos dolores incidunt magnam omnis cumque in illo ipsum autem ipsam blanditiis, numquam iusto ea eaque mollitia est repellendus possimus. Similique?</p>
+
+
+</body>
+</html>
