@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>css Pseudo elements</title>
+	<style>
+		
+		p::first-line{
+			text-decoration: underline;
+		}
+		p::first-letter {
+		  color: red;
+		  font-size: xx-large;
+		}
+		h2::before{
+			content: "Md. ";
+		}
+		h2::after{
+			content: " Rahman";
+		}
+	</style>
+</head>
+<body>
+	
+	<p>Lorem ipsum dolor sit, amet consectetur,<br> adipisicing elit. Eaque neque ipsam corrupti fugiat quod, <br>libero non officiis perferendis repellendus ratione enim, <br>atque odit doloribus. Temporibus consectetur nesciunt dolore voluptates iure.</p>
+	<hr>
+	<h2>Hafizur</h2>
+</body>
+</html>
