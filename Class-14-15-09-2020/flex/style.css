@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background: rgb(35, 206, 236);
+}
+.flex-container{
+ display: flex;
+ justify-content: space-around;
+ /* flex-direction: row; */
+ align-items: stretch;
+
+
+}
+.flex-container div{
+    border: 1px solid red;
+    padding: 15px;  
+    width: 30%;  
+}
+.column-1{
+    background: red;
+    flex:1
+}
+.column-2{
+    background: blue;
+    flex:1
+}
+.column-3{
+    background: blueviolet;
+    flex:1
+}
