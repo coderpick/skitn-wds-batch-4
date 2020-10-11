@@ -1,0 +1,29 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
+}
+header .navbar-dark .navbar-nav .nav-link {
+     font-size: 18px;
+    text-transform: capitalize;
+    color: #f3f3f3 !important;
+}
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+    color: #08fc17 !important;
+}
+.carousel-indicators li {    
+    width: 24px;
+    height: 24px;  
+    background-color: #18e80a;  
+    border-radius: 50%;
+}
+
+.carousel-indicators .active {
+    opacity: 1;
+    background-color: #ff163a !important;
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+}
