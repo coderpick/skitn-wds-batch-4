@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+a:focus, a:hover {
+    text-decoration: none;
+}
+
+header .navbar-dark .navbar-nav .nav-link {
+    font-size: 18px;
+    text-transform: capitalize;
+    color: #f3f3f3 !important;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+    color: #08fc17 !important;
+}
+
+.carousel-indicators li {
+    width: 24px;
+    height: 24px;
+    background-color: #18e80a;
+    border-radius: 50%;
+}
+
+.carousel-indicators .active {
+    opacity: 1;
+    background-color: #ff163a !important;
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+}
+
+.tab-nav-list .nav-link {
+    display: block;
+    padding: 1rem;
+    color: #333;
+}
+
+.tab-nav-list .nav-link.active {
+    text-decoration: none;
+    border-radius: 4px;
+    background: #d6d6d6;
+    color: #EC5538;
+    background-color: #F9FAFB;
+    border: 1px solid #E9EFF4
+}
+
+.tab-img {
+    max-width: 250px;
+}
+
+.tab-list-content .tab-pane {
+    padding-left: 100px;
+}
+
+.vidoe-box {
+    position: relative;
+}
+
+.video-icon {
+    position:absolute;
+    top:40%;
+    left: 40%;
+}
+.video-icon a {
+    height: 120px;
+    width: 120px;
+    background: #ff4500;
+    border-radius: 50%;
+    text-align: center;
+    display: inline-block;
+    border: 2px solid #fff;
+    line-height: 120px;
+}
+
+.video-icon a i {
+    font-size: 30px;
+    color: #fff;
+}
